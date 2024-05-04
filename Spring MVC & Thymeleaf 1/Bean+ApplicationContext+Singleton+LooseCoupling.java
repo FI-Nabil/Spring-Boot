@@ -19,6 +19,9 @@ public class SpringBootDemoApplication {
 
         // ApplicationContext stores the object that bean returns
         ApplicationContext app = SpringApplication.run(SpringBootDemoApplication.class, args);
+	    /*
+     		we don't need to explicitly make the object of Computer class, that's why it's a loose coupling
+            */
         Computer pc1 = app.getBean(Computer.class);
         System.out.println(pc1);
         Computer pc2 = app.getBean(Computer.class);
