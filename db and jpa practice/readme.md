@@ -15,3 +15,5 @@ Modern JPA system where manual querry doesn't require at all
 - Here StuentRepository interface extends all the jpa properties
 - we inject the Studentrepository in Studentservice class, by which we can avoid manual query
 
+Sql joining(many to many and one to one) and personally query writing in interface are not included in this repo.
+
